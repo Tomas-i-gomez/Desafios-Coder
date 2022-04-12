@@ -35,12 +35,20 @@
     list-style: none;
     align-items: center;
     order: 2;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+
 
 .image {
     width: 75px;
 }
 .image-logo {
+    width: 300px;
+    transition: width 0.5s;
+    cursor: hand;
+}
+.image-logo:hover {
     width: 350px;
 }
 
@@ -51,7 +59,13 @@
     font-style: italic;
     font-size: x-large;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    float: left;
+    cursor: pointer;
 }
+.section-name:hover {
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .section-name a:visited {
     color: #343e40;
     text-decoration: underline;
